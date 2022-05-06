@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Apply Here </title>
+
+<style>
+body
+    {background-color:#1a1a1a;}
+	
+h1 
+    {color:white}
+	
+h2 
+    {color: white}
+	
+p   {color: white;}
+
+a    {font-size:19px;
+      color: orange;} 
+	  
+div {color: white;
+     font-size:19px}
+	  
+</style>
+</head>
+
+<body>
+
+<img src="HotBeansWebLogo.png" width="150" height="150" >
+
+<div class="navbar">
+<ul>
+<li style="float: left">
+ <a href="file://stu-04/student-homes/stu053830/Desktop/Hot%20Beans%20Web.html" class-"active"> Home Page </a> </div>
+ </li>
+<li style="float: left">
+ <a href="file://stu-04/student-homes/stu053830/Desktop/Hot%20Beans%20Staff%20Page.html"> Staff Profiles </a> </div>
+ </li> 
+<li style="float: left">
+ <a href="file://stu-04/student-homes/stu053830/Desktop/Hot%20Beans%20Application.html"> Application </a> </div>
+ </li> 
+ <li style="float:left">
+ <a href="file://stu-04/student-homes/stu053830/Desktop/Hot%20Beans%20Courses.html"> Courses </a> </div>
+ </li>
+ <li style="float:left">
+ <a href="file://stu-04/student-homes/stu053830/Desktop/Hot%20Beans%20Specifics.html"> Specifications and Qualifications </a> </div>
+ </li>
+</ul>
+</div>
+
+ <h1><br> Apply Here </h1> <div>
+ 
+ <div class="appform">
+ <h2>Application</h2>
+ <p> Below is an application form, for which we need your full name, email, phone number, and a link to your CV <p>
+ 
+ 
+ <form>
+<div class="textincolumn-left">
+  <div class="textin"> First Name <br>
+  <input type="text" name="firstname" placeholder="First Name">
+  </div> 
+  <div class="textincolumn-right">
+  <div class="textin">Surname <br>
+  <input type="text" name="surname" placeholder="Surname">
+  </div>
+ <div class="textin"> Email Address <br>
+  <input type="text" name="email" placeholder="Example@gmail.com">
+  </div>
+
+  <div class="textin"> Phone Number <br>
+  <input type="text" name="phoneno" placeholder="07504 123456">
+  </div>
+  </div>
+ <div class="cv"> Upload CV <br>
+ <input id="txt" type="text" placeholder="File Path" onclick="javascript:document.getElementById('file').click();">
+ <input id="txt" type="button" value="Upload File" onclick="javascript:document.getElementById('file').click();">
+ <input id="file" type="file" style="visibility: hidden;" name="img" onchange="ChangeText(this, 'txt');">
+ </div>
+ <input type="submit" value="Submit Application">
+ </form>
+ </div>
+ 
+ 
+ </body>
+ </html>
